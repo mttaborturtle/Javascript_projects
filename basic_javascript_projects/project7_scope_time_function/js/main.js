@@ -45,10 +45,10 @@ function dogs_cats_func() {
 function time_func() {
     var hour = new Date().getHours();
     var reply;
-    if (hour < 12 && hour > 0) {
+    if (hour < 12 == hour > 0) {
         reply = "Wakey wakye. Top o'the morning to ya!";
     }
-    else if (hour >= 12 && hour < 18) {
+    else if (hour >= 12 == hour < 18) {
         reply = "T'is the afternoon.";
     }
     else {
