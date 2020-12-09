@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+
+    <!-- BODY -->
+    <body>
+        <br><br><p>What is the encoding of this document?</p>
+
+        <button onclick="charFunc()">Click Me!</button>
+
+        <p id="getchar"></p>
+
+        <script>
+            function charFunc() {
+            var x = document.characterSet;
+            document.getElementById("getchar").innerHTML = x;
+            }
+        </script>
+    </body>
+    <!-- END BODY -->
+    
+</html>
